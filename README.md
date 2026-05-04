@@ -11,7 +11,7 @@ i am explaining all i have done step by step for each proof picture.
 
 3: I compiled and ran the C++ UDP files (`2_udp_s.cpp` and `2_udp_c.cpp`) using WSL. The client sent "hello" and the server echoed it back.
 
-4: I changed the C++ UDP code. The client sends "C++ UDP Test!" and the server sends a custom string "ACK from C++ Server" instead of echoing the buffer.
+4: I changed the C++ UDP code. The client sends "C++ UDP Test!" and the server sends a custom string "ACK from C++ Server" instead of echoing the buffer (the use of ACK is like in 2).
 
 5: I ran the Python TCP server and client (`3_tcp_s.py` and `3_tcp_c.py`). I sent messages in a loop and the server returned them in uppercase.
 
@@ -19,6 +19,6 @@ i am explaining all i have done step by step for each proof picture.
 
 7: I changed the Python TCP server code. Instead of uppercase, the server adds "Server ACK:" before the message.
 
-8: I compiled and ran the C++ TCP files (`4_tcp_s.cpp` and `4_tcp_c.cpp`). The client sent "Im a message" and the server echoed it. The output was messy because there was no newline in the print functions.
+8: I compiled and ran the C++ TCP files (`4_tcp_s.cpp` and `4_tcp_c.cpp`). The client sent "Im a message" and the server echoed it. The output wasent clear because there was no newline in the print functions.
 
 9: I changed the C++ TCP code. I added newlines (`endl`) to fix the prints. I changed the client message to "Hello from C++ TCP!" and the server now replies with "Message received by TCP server!".
